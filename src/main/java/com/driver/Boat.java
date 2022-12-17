@@ -10,21 +10,11 @@ public class Boat implements WaterVehicle{
         this.capacity = capacity;
     }
 
-    public String getName() {
+    public String getVehicleName() {
         return name;
     }
 
-    public int getCapacity() {
+    public int getVehicleCapacity() {
         return capacity;
-    }
-
-    @Override
-    public String getVehicleName(){
-        return this.name;
-    }
-
-    @Override
-    public int getVehicleCapacity(){
-        return this.capacity;
     }
 }
