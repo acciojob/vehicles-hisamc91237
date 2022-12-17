@@ -11,7 +11,7 @@ public class F1 extends Car {
 
     @Override
     public int getCurrentGear() {
-        return this.gearChange;
+        return this.gearChange();
     }
 
     public F1(String name, boolean isManual) {
